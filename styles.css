@@ -1,0 +1,112 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  font-family: "Kumbh Sans",sans-serif;
+  color:hsl(0, 11%,12%)
+
+}
+
+section{
+  background-color: hsl(185, 75%, 39%);
+  min-height: 100vh;
+    display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+position: relative;
+overflow: hidden;
+}
+
+.container{
+    width:350px;
+    background-color: white;
+    border-radius: 20px;
+      overflow: hidden;
+position: relative;
+}
+
+.card-header{
+  background-image: url('images/bg-pattern-card.svg');
+  background-size: cover;
+  height: 150px;
+}
+
+
+ul{
+
+display: flex;
+  list-style-type: none;
+  align-items: center;
+justify-content: center;
+}
+
+li{
+  margin: 30px;
+  font-size: 10px;
+    letter-spacing: 0.1em;
+       color: hsl(0, 0%, 59%);
+       text-align: center;
+}
+
+.card-footer{
+  border-top: 1px solid hsl(0, 3%, 86%);
+}
+
+.card .container .card-body ul li span{
+  display: block;
+  margin-bottom: 5px;
+  font-size: 18px;
+  letter-spacing: normal;
+  font-weight: 700;
+  color:hsl(0, 11%,12%);
+}
+
+ h3{
+   text-align: center;
+   padding-bottom: 8px;
+   font-size: 18px;
+ }
+
+ .age{
+   font-weight: 400;
+    color: hsl(0, 0%, 59%);
+ }
+
+ p{
+   text-align: center;
+   font-size: 13px;
+   padding-bottom: 50px;
+   color: hsl(0, 0%, 59%);
+ }
+
+.victor{
+  border-radius: 50%;
+  border: 5px solid white;
+margin-top: -50px;
+margin-left:120px;
+margin-right: 120px;
+margin-bottom: 15px;
+}
+
+/*circles graphics*/
+
+.c1 , .c2{
+  position: absolute;
+}
+
+.c1{
+  transform: translate(-47%,-45%);
+}
+.c2{
+  top: 0;
+  bottom: 0;
+  transform: translate(40%,38%);
+}
+
+@media (max-width:768px) {
+
+}
